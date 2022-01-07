@@ -105,3 +105,11 @@ OnAccessMaxFileSize 5M
  this will show you all the info required for those parameters
  
  
+ Setting up clamav-milter
+ 
+ for this first you need to install
+ sudo apt install clamav-milter
+ 
+ clamav-milter takes the responsibity of mail and check viruses to run clamav-milter you should have an instance of clamd running already running or clamav-milter will not run
+ 
+ 
